@@ -1,10 +1,15 @@
+html {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
 }
+
+
 
 #dashboard-container {
     width: 100vw;
@@ -34,10 +39,6 @@ body {
     color: white;
 }
 
-#sidebar > * {
-    border: 1px solid red;
-}
-
 #logo-container {
     display: grid;
     grid-template-columns: 70px 1fr;
@@ -51,10 +52,25 @@ body {
     height: 70px;
 }
 
-h1 {
-    margin: 0 auto 0 0;
+#sidebar ul {
+    list-style: none;
+    font-weight: bold;
+
 }
 
+#sidebar ul li {
+    margin-top: 1rem;
+}
+
+li img {
+    height: 1.25rem;
+    margin-right: 1rem;
+    vertical-align: text-bottom;
+}
+
+#info-container {
+    align-self: end;
+}
 
 #dashboard {
     grid-area: dashboard;
