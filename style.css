@@ -284,6 +284,19 @@ hr {
     margin-left: 1rem;
 }
 
-.project-icons > img:hover {
+.project-icons > img:hover,
+.icon:hover {
     scale: 1.2;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
 }
